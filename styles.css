@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.painel {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Playpen Sans", cursive;
+    font-size: 12px;
+
+  
+}
+
+.box {
+    img {
+        width: 80%;
+    }
+}
+
+
+#yes, #no {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+#no {
+    margin-left: 10px;
+    position: absolute;
+}
+
+@media (max-width: 430px) {
+    .painel {
+        width: 350px;
+    }
+}
