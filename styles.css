@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: red;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
 .painel {
     width: 500px;
     height: 500px;
-    background-color: red;
+    background-color: white;
     margin: auto;
     border-radius: 20px;
     text-align: center;
